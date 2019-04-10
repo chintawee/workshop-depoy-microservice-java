@@ -5,3 +5,9 @@ services:
 script:
 - gcloud -q preview app deploy app.yaml --set-default 
 - python e2e_test.py
+deploy:
+  provider: gae
+  keyfile: My First Project-638bad621412.json
+  project: zippy-aurora-237105
+  skip_cleanup: true
+  default: true

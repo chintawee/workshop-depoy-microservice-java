@@ -2,7 +2,3 @@ language: java
 jdk: oraclejdk8
 services:
   - docker
-deploy:
-  provider: gae
-  keyfile: "My First Project-638bad621412.json"
-  project: "zippy-aurora-237105"

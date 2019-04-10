@@ -2,7 +2,3 @@ language: java
 jdk: oraclejdk8
 services:
   - docker
-deploy:
-  provider: gae
-  keyfile: client-secret.json
-  project: workshop-depoy-microservice-java

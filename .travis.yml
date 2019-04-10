@@ -4,5 +4,5 @@ services:
   - docker
 deploy:
   provider: gae
-  keyfile: My First Project-638bad621412.json
+  keyfile: client-secret.json
   project: workshop-depoy-microservice-java
